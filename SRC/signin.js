@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert } from 'react-native';
 
 // Replace with your backend API URL
-const API_URL = 'http://localhost:4000';
+const API_URL = 'https://citizens-5.onrender.com';
 
 export const signUp = async (email, password, confirmPassword,name) => {
   if (password !== confirmPassword) {

@@ -6,14 +6,14 @@ import * as Location from "expo-location"
 
 
 export function Main(){
-const[description,setDesctription] = useState(null)
+const[description,setDesctription] = useState("")
 const [location,setLocation] = useState()
 const [category,setCategory] = useState()
 const [email,setEmail] = useState()
 const [selectedValue, setSelectedValue] = useState("");
-const [errorMsg, setErrorMsg] = useState(null);
+const [errorMsg, setErrorMsg] = useState("");
 
-const url = `http://localhost:4000`
+const url = `https://citizens-5.onrender.com`
 
 
 

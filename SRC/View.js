@@ -7,7 +7,7 @@ export const DataFetchingComponent = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = `http://localhost:4000`
+  const url = `https://citizens-5.onrender.com`
   // Fetch data using useEffect
   useEffect(() => {
     const fetchData = async () => {
@@ -57,7 +57,7 @@ export const DataFetchingComponent = () => {
   return (
     <View style={styles.container}>
               <ScrollView>
-s
+
       <Text style={styles.header}>Fetched Data</Text>
      {
      mappedData.map(item=>{

@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 
 // Replace with your backend API URL
-const API_URL = 'http://localhost:4000';
+const API_URL = 'https://citizens-5.onrender.com';
 
 
  const login =  (email,password,navigation) => {

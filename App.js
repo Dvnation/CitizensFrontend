@@ -12,7 +12,7 @@ import HomePage from './SRC/Home';
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator()
 
-export default function App() {
+  function App() {
 
   const DrawerNavs = ()=>{
 
@@ -66,6 +66,6 @@ const styles = StyleSheet.create({
   },
 });
 
-
+export default App
 
  
