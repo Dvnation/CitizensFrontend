@@ -19,7 +19,7 @@ const Drawer = createDrawerNavigator()
    return(
     <Drawer.Navigator
     initialRouteName="Home"
-    drawerContentOptions={{
+    screenOptions={{
       activeTintColor: '#e91e63',
       itemStyle: { marginVertical: 5 },
     }}
